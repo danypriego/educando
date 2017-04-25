@@ -1,5 +1,5 @@
 <?php
-	class Indicador{
+	class CIndicador extends MIndicador {
 		public function __construct() {
 
 		}	

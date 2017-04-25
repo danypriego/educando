@@ -1,5 +1,5 @@
 <?php
-	class Incidencia{
+	class CIncidencia extends MIncidencia {
 		public function __construct() {
 
 		}	

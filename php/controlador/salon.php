@@ -1,5 +1,5 @@
 <?php
-	class Salon{
+	class CSalon extends MSalon {
 		public function __construct() {
 
 		}	

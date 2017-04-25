@@ -1,5 +1,5 @@
 <?php
-	class Escuela{
+	class CEscuela extends MEscuela {
 		
 		public function __construct() {
 

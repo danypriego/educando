@@ -1,5 +1,5 @@
 <?php
-	class Pregunta{
+	class CPregunta extends MPregunta {
 		public function __construct() {
 
 		}	

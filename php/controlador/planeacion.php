@@ -1,5 +1,5 @@
 <?php
-	class Planeacion{
+	class CPlaneacion extends MPlaneacion {
 		public function __construct() {
 
 		}	

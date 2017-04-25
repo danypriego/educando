@@ -1,5 +1,5 @@
 <?php
-	class Clase{
+	class CClase extends MClase {
 		public function __construct() {
 
 		}	

@@ -1,5 +1,5 @@
 <?php
-	class NivelDesempeno{
+	class CNivelDesempeno extends MNivelDesempeno {
 		public function __construct() {
 
 		}	

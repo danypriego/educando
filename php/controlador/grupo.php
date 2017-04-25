@@ -1,5 +1,5 @@
 <?php
-	class Grupo{
+	class CGrupo extends MGrupo {
 		public function __construct() {
 
 		}	

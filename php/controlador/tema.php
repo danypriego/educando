@@ -1,5 +1,5 @@
 <?php
-	class Tema{
+	class CTema extends MTema {
 		public function __construct() {
 
 		}	

@@ -1,5 +1,5 @@
 <?php
-	class Bibliografia{
+	class CBibliografia extends MBibliografia {
 		public function __construct() {
 
 		}	

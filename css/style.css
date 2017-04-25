@@ -1,0 +1,74 @@
+/*IDs*/
+#agregar{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	border-radius: 100%;
+}
+
+#agregar:hover{
+	cursor: pointer;
+}
+
+
+
+/*Clases*/
+.card-title{
+	margin-left: 1em;
+}
+
+.card-text{
+	margin-left: 2.5em;
+}
+
+i.material-icons{
+	top: 20%;
+    left: 20%;
+    position: relative
+}
+
+.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+
+
+/**Florian*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+form-inline div.form-group{
+    margin-top: 0px;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}

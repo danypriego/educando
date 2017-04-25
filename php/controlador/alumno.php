@@ -1,22 +1,22 @@
 <?php
-	class Alumno{
+	class CAlumno extends MAlumno {
 		public function __construct() {
 
 		}	
 
-		public function agregar(){
+		public function agregar() {
 
 		}
 
-		public function eliminar(){
+		public function eliminar() {
 
 		}
 
-		public function actualizar(){
+		public function actualizar() {
 
 		}
 
-		public function buscar(){
+		public function buscar() {
 
 		}
 	}

@@ -1,5 +1,5 @@
 <?php
-	class CicloEscolar{
+	class CCicloEscolar extends MCicloEscolar {
 		public function __construct() {
 
 		}	

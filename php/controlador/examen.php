@@ -1,5 +1,5 @@
 <?php
-	class Examen{
+	class CExamen extends MExamen {
 		public function __construct() {
 
 		}	

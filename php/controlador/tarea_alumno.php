@@ -1,5 +1,5 @@
 <?php
-	class TareaAlumno{
+	class CTareaAlumno extends MTareaAlumno {
 		public function __construct() {
 
 		}	

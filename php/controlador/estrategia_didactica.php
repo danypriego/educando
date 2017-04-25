@@ -1,5 +1,6 @@
 <?php
-	class EstrategiaDidactica{
+	class CEstrategiaDidactica extends MEstrategiaDidactica {
+		
 		public function __construct() {
 
 		}	

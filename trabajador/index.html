@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Principal</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-material-design/dist/css/ripples.css">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Dropdown.js -->
+  <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
+
+  <link href="../css/style.css" rel="stylesheet">
+  <!-- Page style -->
+  <link href="../css/index.css" rel="stylesheet">
+</head>
+<body>
+  <div id="wrap">
+    <div class="row">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="" class="navbar-brand"><span class="glyphicon glyphicon-education"></span> Educando</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href=""><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user"></span> Alumnos<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="">Asistencia</a></li>
+                <li><a href="">Examenes</a></li>
+                <li><a href="">Tareas</a></li>
+                <li><a href="">Calificaciones</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-apple"></span> Materias<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="">Tema</a></li>
+              </ul>
+            </li>
+            <li><a href=""><span class="glyphicon glyphicon-calendar"></span> Horario</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-folder-open"></span> Documentacion<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="">Planeaciones</a></li>
+                <li><a href="">Ruta de Mejora</a></li>
+                <li><a href="">Rubricas</a></li>
+                <li><a href="">Planeacion Argumentada</a></li>
+              </ul>
+            </li>
+            <li><a href=""><span class="glyphicon glyphicon-off"></span> Cerrar Sesion</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="col-xs-8">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="form-group" style="margin-left: 15px; margin-right: 15px;">
+                <textarea name="descripcion" id="descripcion" rows="2" class="form-control" placeholder="Descripción..."></textarea>
+              </div>
+              <form class="form-inline pull-right" style="padding-left: 15px; padding-right: 15px;">
+                  <div class="form-group" style="margin-top: 0;">
+                      <label class="radio-inline"><input type="radio" name="privacidad" checked>Público</label>
+                      <label class="radio-inline"><input type="radio" name="privacidad">Maestros</label>
+                      <label class="radio-inline"><input type="radio" name="privacidad">Privado</label>
+                  </div>
+                  <div class="form-group" style="margin-top: 0;">
+                    <span class="btn btn-default btn-file" style="padding: 10px;">
+                      Subir <b class="glyphicon glyphicon-cloud-upload"></b><input type="file" name="cargarArchivo">
+                    </span>
+                  </div>
+                  <div class="form-group" style="margin-top: 0;">
+                    <input class="btn btn-default" style="padding: 10px;" type="button" name="compartir" value="Compartir">
+                  </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="panel-group" style="margin-top: 15px;">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-xs-2">
+                  <img src="img/IMG_03222017001.jpg" alt="image not available" class="img-rounded" width="100%">
+                </div>
+                <div class="col-xs-10">
+                  <h2 style="margin-top: 0;">File Name</h2>
+                  <small>Syllabus - 1st Bimester</small>
+                </div>
+                <div class="col-xs-12">
+                  <div class="col-xs-9 form-group" style="margin-top: 10px; padding-left: 0; padding-right: 0; ">
+                    <input type="text" class="form-control" placeholder="Comment" style="width: 100%;">
+                  </div>
+                  <div class="col-xs-3" style="margin-top: 10px; margin-bottom: 14px;">
+                    <button class="btn btn-default">Comment</button>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="col-xs-1" style="padding-left: 0; padding-right: 0;">
+                  <img src="img/IMG_03222017001.jpg" alt="image not available" class="img-rounded" width="48px">
+                </div>
+                <div class="col-xs-11">
+                  <h4 style="margin-top: 0;"><a href="#">Teacher's name</a></h4>
+                  <small>Blank comment</small>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4"></div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">COLIDEV Solutions &copy; 2017</p>
+    </div>
+  </div>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../node_modules/bootstrap-material-design/dist/js/material.min.js"></script>
+  <script src="../node_modules/bootstrap-material-design/dist/js/ripples.min.js"></script>
+  <script>
+    $.material.init();
+  </script>
+
+  <!-- Sliders -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/noUiSlider/6.2.0/jquery.nouislider.min.js"></script>
+
+  <!-- Dropdown.js -->
+  <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"></script>
+  <script>
+    $("#dropdown-menu select").dropdown();
+  </script>
+
+</body>
+</html>

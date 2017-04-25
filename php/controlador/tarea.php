@@ -1,5 +1,5 @@
 <?php
-	class Tarea{
+	class CTarea extends MTarea {
 		public function __construct() {
 
 		}	

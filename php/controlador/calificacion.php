@@ -1,5 +1,5 @@
 <?php
-	class Calificacion{
+	class CCalificacion extends MCalificacion {
 		public function __construct() {
 
 		}	

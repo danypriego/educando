@@ -1,5 +1,5 @@
 <?php
-	class Inventario{
+	class CInventario extends MInventario {
 		public function __construct() {
 
 		}	

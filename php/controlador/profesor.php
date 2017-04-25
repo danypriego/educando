@@ -1,5 +1,5 @@
 <?php
-	class Profesor{
+	class CProfesor extends MProfesor {
 		public function __construct() {
 
 		}	

@@ -1,5 +1,5 @@
 <?php
-	class Rubrica{
+	class CRubrica extends MRubrica {
 		public function __construct() {
 
 		}	

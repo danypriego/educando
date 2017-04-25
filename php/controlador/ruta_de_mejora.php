@@ -1,5 +1,5 @@
 <?php
-	class RutaMejora{
+	class CRutaMejora extends MRutaMejora {
 		public function __construct() {
 
 		}	

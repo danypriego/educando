@@ -1,5 +1,5 @@
 <?php
-	class Criterio{
+	class CCriterio extends MCriterio {
 		public function __construct() {
 
 		}	

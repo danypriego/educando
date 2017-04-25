@@ -1,5 +1,5 @@
 <?php
-	class Especialidad{
+	class CEspecialidad extends MEspecialidad {
 		public function __construct() {
 
 		}	

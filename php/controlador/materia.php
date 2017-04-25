@@ -1,5 +1,5 @@
 <?php
-	class Materia{
+	class CMateria extends MMateria {
 		public function __construct() {
 
 		}	

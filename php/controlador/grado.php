@@ -1,5 +1,5 @@
 <?php
-	class Grado{
+	class CGrado extends MGrado {
 		public function __construct() {
 
 		}	
